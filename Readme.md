@@ -1,4 +1,4 @@
-This assignment mainly use the proximal gradient method and the FISTA algorithm to solve the following sparse binary classification logistic regression model.The ma
+This assignment mainly use the proximal gradient method and the FISTA algorithm to solve the following sparse binary classification logistic regression model.
 
 $$
   \min_{x} \ell(x) \triangleq \frac{1}{m} \sum_{i = 1}^{m} \ln(1 + \exp(- b_i a_i^T x)) + \lambda \|x\|_2^2 + \mu \|x\|_1
